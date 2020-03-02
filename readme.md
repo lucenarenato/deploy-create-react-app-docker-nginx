@@ -38,6 +38,12 @@ p.s: se você tiver problemas para executar o arquivo ```run-app-deploy.sh``` ex
 
 Sugestões são bem vindas :)
 
+## Ativar docker produção
+> Ative o container usando o docker-compose:
+```
+docker-compose -f docker-compose-prod.yml up -d --build
+```
+> OBS: o parâmetro -f serve para especificar o arquivo a ser usado pelo docker-compose.
 
 
 - Start o dockerfile
